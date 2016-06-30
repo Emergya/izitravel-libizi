@@ -1,2 +1,0 @@
-# izitravel-libizi
-izitravel-libizi
