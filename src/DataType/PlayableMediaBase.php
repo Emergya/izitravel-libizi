@@ -25,7 +25,9 @@ abstract class PlayableMediaBase extends MediaBase implements PlayableMediaInter
     {
         /** @var static $media */
         $media = parent::createFromData($data);
-        $media->duration = $data->duration;
+        if (!empty($data->duration)) {
+            $media->duration = $data->duration;
+        }
 
         return $media;
     }
