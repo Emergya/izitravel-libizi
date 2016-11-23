@@ -82,4 +82,10 @@ interface MediaInterface extends FactoryInterface, RevisionableInterface, UuidIn
      */
     public function getTitle();
 
+    /**
+     * Gets the uuid image.
+     *
+     * @return string|null
+     */
+    public function getUuid();
 }

@@ -83,5 +83,8 @@ abstract class MediaBase implements MediaInterface
     {
         return $this->title;
     }
-
+    public function getUuid()
+    {
+        return $this->uuid;
+    }
 }
