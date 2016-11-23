@@ -27,4 +27,10 @@ interface ContentProviderInterface extends FactoryInterface, UuidInterface
      */
     public function getCopyrightMessage();
 
+    /**
+     * Gets the uuid code.
+     *
+     * @return string|null
+     */
+    public function getUuid();
 }

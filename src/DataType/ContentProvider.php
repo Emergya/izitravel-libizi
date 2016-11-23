@@ -47,6 +47,11 @@ class ContentProvider implements ContentProviderInterface
         return $this->name;
     }
 
+    public function getUuid()
+    {
+        return $this->uuid;
+    }
+
     public function getCopyrightMessage()
     {
         return $this->copyrightMessage;
